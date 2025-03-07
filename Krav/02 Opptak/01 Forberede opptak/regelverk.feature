@@ -1,6 +1,6 @@
 # language: no
 @opptakspilot @opptakspilotkritisk @fsadmin @ci
-Egenskap: 02 Opptak: 21 Regelverk
+Egenskap: Regelverk
 Som administrator ønsker jeg å kunne opprette og endre regelverk for opptak slik at jeg kan tilpasse opptakene til de ulike utdanningstilbudene
 
   Scenario: 

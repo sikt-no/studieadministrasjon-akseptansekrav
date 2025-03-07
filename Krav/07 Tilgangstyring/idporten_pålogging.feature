@@ -1,6 +1,6 @@
 # language: no
 @opptakspilot
-Egenskap: 07 Tilgangstyring: ID-porten
+Egenskap: ID-porten
 Brukere skal kunne logge på med ID-porten i alle nye brukerflater
 
 @opptakspilotkritisk

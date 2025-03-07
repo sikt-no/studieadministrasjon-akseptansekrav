@@ -1,6 +1,6 @@
 # language: no
 @opptakspilot @fsadmin @ci
-Egenskap: 02 Opptak: 23 Opprette et opptak
+Egenskap: Opprette et opptak
 Som administrator ønsker jeg å kunne opprette et opptak og publisere det slik at det blir tilgjengelig for personer som ønsker å søke. Det skal også være mulig å endre opptaket etter at det er opprettet.
 
   Bakgrunn:

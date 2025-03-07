@@ -1,6 +1,6 @@
 # language: no
 @skip @søknad @opptak
-Egenskap: 02 Opptak: 28 Kort om søknad
+Egenskap: Kort om søknad
   Som administrator trenger jeg å se en persons søknad for å kunne informere og veilede søkere, og skjerme saksbehandlere i opptak for unødige henvendelser.
 
   Bakgrunn:

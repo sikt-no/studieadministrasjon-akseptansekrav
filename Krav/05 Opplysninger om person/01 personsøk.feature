@@ -1,6 +1,6 @@
 # language: no
 @støtteprosesser 
-Egenskap: 06 Opplysninger om person: 01 Personsøk
+Egenskap: Personsøk
   Som administrator trenger jeg å kunne søke opp personer knyttet til lærestedet (organisasjonen) jeg jobber for, uten av jeg på forhånd nødvendigvis vet om personen er søker, student eller resultateier hos oss, for å kunne ivareta informasjons- og veiledningsplikten vår på en god måte.
   Hvis jeg har søkt opp en personer etter gitte kriterier, så må jeg enten få se den personen som matcher søket mitt, eller få opp en liste med relevante personer som matcher søket mitt.
 

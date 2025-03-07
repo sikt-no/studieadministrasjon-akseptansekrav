@@ -1,5 +1,5 @@
 # language: no
-Egenskap: 06 Opplysninger om person: 03 Personprofil
+Egenskap: Personprofil
             Som administrator trenger jeg å kunne få opp person- og kontaktopplysninger for personer jeg slår opp for å sikre at jeg snakker med riktig person før jeg kan gi mer informasjon eller veiledning.
             Det er likegyldig om tilknytningsforholdet er at personen jeg har søkt på en utdanning, har eller har hatt studierett, har resultater registrert, eller kun er registrert som fagperson.
             #Happy path - mulig bilde må ut i første produksjonsiterasjon

@@ -1,6 +1,6 @@
 # language: no
 @ci
-Egenskap: 04 Gjennomføre utdanning: Kort om studieprogram
+Egenskap: Kort om studieprogram
   Som admninistrator trenger jeg å raskt kunne se sammenfattet info om en persons studieprogramtilknytninger, for å kunne gi tilpasset informasjon.
 # populært kalt lilla boks
 

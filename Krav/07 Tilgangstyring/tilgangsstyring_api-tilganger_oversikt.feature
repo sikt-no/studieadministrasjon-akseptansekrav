@@ -1,6 +1,6 @@
 # language: no
 @skip @støtteprosesser @sikkerhet
-Egenskap: 07 Tilgangstyring: Tilgangsstyring - Oversikt over API-tilganger
+Egenskap:  Tilgangsstyring - Oversikt over API-tilganger
   Som systemadministrator ved organisasjon som bruker FS til studieadministrasjon, trenger jeg å vite hvilke API-tilganger som hvilke maskinbrukere
   har tilgang til enhver tid, slik at jeg vet hvilke apier og data de ulike maskinbrukerne har tilgang til for å ivareta personvern og sikkerhet.
 

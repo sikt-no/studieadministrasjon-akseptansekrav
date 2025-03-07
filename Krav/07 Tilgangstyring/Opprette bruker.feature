@@ -1,6 +1,6 @@
 # language: no
 @skip @personopplysninger
-Egenskap: 07 Tilgangstyring: Opprettelse av personbruker
+Egenskap: Opprettelse av personbruker
 
   Bakgrunn: Når en bruker logger inn i Min kompetanse for første gang må det opprettes en bruker
     Gitt Brukeren logger inn Min kompetanse for første gang

@@ -1,6 +1,6 @@
 # language: no
 
-Egenskap: 01 Planlegge utdanning: Opprette og tilby utdanning
+Egenskap: Opprette og tilby utdanning
 
   Scenariomal: Administrator oppretter ny utdanning
     Når bruker utarbeider et nytt forslag til ny "<utdanning>"

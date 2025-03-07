@@ -1,3 +1,3 @@
 # language: no
 @skip
-Egenskap: 06 Kompetanse: Dele egne kompetansebevis
+Egenskap: Dele egne kompetansebevis

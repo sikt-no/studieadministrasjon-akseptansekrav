@@ -1,6 +1,6 @@
 # language: no
 @opptakspilot @focus @ci @opplysning
-Egenskap: 07 Tilgangstyring: Feide
+Egenskap: Feide
 Brukere skal kunne logge på med feide i alle nye brukerflater
 
   @opptakspilotkritisk

@@ -1,6 +1,6 @@
 # language: no
 @skip @støtteprosesser @sikkerhet
-Egenskap: 07 Tilgangstyring: Tilgangsstyring ansatt-bruker
+Egenskap: Tilgangsstyring ansatt-bruker
   Som systemadministrator ved organisasjon som bruker FS til studieadministrasjon, trenger jeg å vite at det kun er aktive, autoriserte brukere som får tilgang til å se data om våre søkere og studenter (tidligere og aktive), for å sikre deres data/opplysninger og personvern, sikkerhet og personvern.
   
   # Person-bruker skal alltlid ha tilgang til sine egne data via personbrukerflaten. Mulig at ansatte skal ha tilgang til å se data registrert om seg via FS Admin, men det er ikke utforsket ennå.

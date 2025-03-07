@@ -1,6 +1,6 @@
 # language: no
 @skip @støtteprosesser
-Egenskap: 04 Gjennomføre utdanning: Oversikt over samtykker og informasjon om datadeling
+Egenskap: Oversikt over samtykker og informasjon om datadeling
   Som administrator trenger jeg å kunne se hvilke samtykker en person har gitt min organisasjon, fordi dette kan være med å belyse saker om hvorfor en person har eller ikke har tilgang til en tjeneste.
 Som administrator skal jeg aldri kunne endre på samtykker for person. Det er kun lesetilgang som er aktuelt.
 

@@ -1,5 +1,5 @@
 # language: no
-Egenskap: 06 Kompetanse: Se egne resultater
+Egenskap: Se egne resultater
 
 Scenario: Søker kan se egne resultater og kvalifikasjoner
   Gitt personen er på hovedsiden til personflaten

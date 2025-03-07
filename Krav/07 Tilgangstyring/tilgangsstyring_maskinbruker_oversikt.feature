@@ -1,6 +1,6 @@
 # language: no
 @skip @støtteprosesser @sikkerhet
-Egenskap: 07 Tilgangstyring: Tilgangsstyring - Oversikt over API-brukere
+Egenskap: Tilgangsstyring - Oversikt over API-brukere
   Som systemadministrator ved organisasjon som bruker FS til studieadministrasjon, trenger jeg å vite hvilke maskinbrukere
   som  til enhver tid har tilgang til å se data om våre utdanninger, studenter og søkere, for å sikre våre virksomhetsdata og personvern for personer registrert hos oss.
 

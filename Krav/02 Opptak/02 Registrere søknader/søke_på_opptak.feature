@@ -1,6 +1,6 @@
 # language: no
 @opptakspilot @ci
-Egenskap: 02 Opptak: 24 Søke på opptak
+Egenskap: Søke på opptak
     Som borger ønsker jeg å kunne søke på et opptak til et studie jeg ønsker å delta på slik at jeg kan få skoleplass
 
   @harTest @levert

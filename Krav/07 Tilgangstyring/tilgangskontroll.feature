@@ -1,6 +1,6 @@
 # language: no
 @skip @støtteprosesser @sikkerhet
-Egenskap: 07 Tilgangsstyring: Tilgangskontroll
+Egenskap: Tilgangskontroll
   Som organisasjoner som bruker FS til studieadministrasjon, må vi være trygge på at kun aktive, autoriserte brukere som får tilgang til å se data om våre søkere og studenter (tidligere og aktive), for å sikre deres data/opplysninger og personvern.
   # Scenarier for FS Admin
 

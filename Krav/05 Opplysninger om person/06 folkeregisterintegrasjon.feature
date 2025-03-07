@@ -1,6 +1,6 @@
 # language: no
 @skip @personopplysning
-Egenskap: 07 Støtteprosesser: 06 Integrasjon mot folkeregisteret for å oppdatere personopplysninger for læresteder
+Egenskap: Integrasjon mot folkeregisteret for å oppdatere personopplysninger for læresteder
 Som person som bruker Min kompetanse (søker, student eller resultateier) som er registert i folkeregisteret skal jeg slippe å oppdatere
   mine personopplysninger flere steder, slik at læresteder har korrekt person- og kontaktinformasjon om meg, tiltaler meg ved riktig navn og
   kontakter meg på riktig adresse og kan behandle meg korrekt mht mine personopplysninger når det er aktuelt.

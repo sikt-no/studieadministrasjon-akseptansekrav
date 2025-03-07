@@ -1,7 +1,7 @@
 
 # language: no
 
-Egenskap: 02 Opptak: 27 Svare på tilbud
+Egenskap: Svare på tilbud
 Søker kan svare på tilbud som er gitt  Søker kan svare på tilbud om studieplass  Søker kan endre svar på søknad mellom ja og nei før en gitt frist  Alternativet til disse er at saksbehandler svarer på vegne av søker
 
 Scenario: Søker kan svare på tilbud

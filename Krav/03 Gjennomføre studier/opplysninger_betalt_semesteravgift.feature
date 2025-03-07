@@ -1,6 +1,6 @@
 # language: no
 @skip @ci
-Egenskap: 04 Gjennomføre utdanning: Opplysninger om betalt semesteravgift
+Egenskap: Opplysninger om betalt semesteravgift
   Som administrator trenger jeg raskt å se om en person har betalt semesteravgift for inneværende semester, siden dette ofte er en kritisk betingelse for å få tilgang til utdanning og ulike tjenester ved lærestedet.
 
   Bakgrunn:

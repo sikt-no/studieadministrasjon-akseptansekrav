@@ -1,6 +1,6 @@
 # language: no
   @skip @studieadministrasjon
-  Egenskap: 04 Gjennomføre utdanning: Utdanningsoversikt for person
+  Egenskap: Utdanningsoversikt for person
     Som administrator har jeg behov for en samlet utdanningsoversikt for personer jeg informerer og veileder, slik at jeg kan gi dem riktig informasjon og
   sakssvarende veiledning for deres situasjon.
 
