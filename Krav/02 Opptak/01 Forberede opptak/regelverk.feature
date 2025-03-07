@@ -3,7 +3,7 @@
 Egenskap: Regelverk
 Som administrator ønsker jeg å kunne opprette og endre regelverk for opptak slik at jeg kan tilpasse opptakene til de ulike utdanningstilbudene
 
-  Scenario: 
+  Bakgrunn: 
     Gitt administratoren er en saksbehandler for opptak
     Og administratoren går til regelverksiden
 
