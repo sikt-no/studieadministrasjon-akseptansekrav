@@ -1,5 +1,5 @@
 # language: no
-@skip
+
 Egenskap: 01 Planlegge utdanning: Opprette og tilby utdanning
 
   Scenariomal: Administrator oppretter ny utdanning

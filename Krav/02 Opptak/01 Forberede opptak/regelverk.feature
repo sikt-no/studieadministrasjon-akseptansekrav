@@ -7,12 +7,14 @@ Som administrator ønsker jeg å kunne opprette og endre regelverk for opptak sl
     Gitt administratoren er en saksbehandler for opptak
     Og administratoren går til regelverksiden
 
+  @harTest @levert
    Scenario: Opprette Kompetanseregelverk uten alternative kompetansekrav
      Når administratoren velger å opprette et kompetanseregelverk
     Og administratoren fyller inn grunnleggende informasjon i kompetanseregelverket
      Og administratoren lagrer kompetanseregelverket
      Så skal administratoren kunne se kompetanseregelverket i listen over regelverk
 
+  @harTest @levert
   Scenario: Opprette Kompetanseregelverk med alternative kompetansekrav
     Når administratoren velger å opprette et kompetanseregelverk
     Og administratoren fyller inn grunnleggende informasjon i kompetanseregelverket
@@ -20,6 +22,7 @@ Som administrator ønsker jeg å kunne opprette og endre regelverk for opptak sl
     Og administratoren lagrer kompetanseregelverket
     Så skal administratoren kunne se kompetanseregelverket i listen over regelverk
 
+  @levert
   Scenario: Endre Kompetanseregelverk
     Når administratoren velger å endre et kompetanseregelverk
     Og administratoren endrer informasjon i kompetanseregelverket og lagrer

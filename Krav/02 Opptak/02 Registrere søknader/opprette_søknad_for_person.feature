@@ -1,6 +1,6 @@
 # language: no
 @opptak @skip
-Egenskap: 03 Opptak: 29 Opprette søknad for person
+Egenskap: 02 Opptak: 29 Opprette søknad for person
   Som saksbehandler i opptak trenger jeg av og til å kunne opprette søknader for personer som ikke klarer å opprette dette selv om de
   er i en gruppe som skal kunne søke på aktuelle utdanningstilbud. Grunner til å ikke kunne opprette egen søknad kan være at søker ikke har
   norsk eID eller får , eller har fått innvilget å søke opptak etter at søknadsfrist har utløpt.

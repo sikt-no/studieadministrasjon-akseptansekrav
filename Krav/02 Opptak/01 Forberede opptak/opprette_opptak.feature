@@ -8,7 +8,7 @@ Som administrator ønsker jeg å kunne opprette et opptak og publisere det slik 
     Gitt administratoren er en saksbehandler for opptak
     Gitt administratoren går til opptakssiden
 
-  @opptakspilotkritisk 
+  @harTest @levert
   Scenario: Opprette et opptak med ett utdanningstilbud
     Når administratoren velger å lage lokalt opptak
     Og administratoren setter navn og type på opptak til universitet og høyskole grunnutdanning
@@ -16,14 +16,14 @@ Som administrator ønsker jeg å kunne opprette et opptak og publisere det slik 
     Og administratoren tilknytter et utdanningstilbud til opptaket
     Så skal personen se opptaket som er laget og kunne søke på det
   
-  @opptakspilotkritisk
+  @harTest @levert
   Scenario: Endre navn på et opptak
     Gitt at det finnes et opptak administrator har laget
     Når administratoren velger å endre et opptak
     Og administratoren endrer navn og lagrer endringene
     Så skal administratoren kunne opptaket med det nye navnet i listen over opptak
 
-  @opptakspilotkritisk
+  @harTest @levert
   Scenario: Endre frist på et opptak
     Gitt at det finnes et opptak administrator har laget
     Når administratoren velger å endre et opptak

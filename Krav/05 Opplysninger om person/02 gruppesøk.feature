@@ -1,5 +1,5 @@
 # language: no
-@skip @støtteprosesser 
+
 Egenskap: 07 Støtteprosesser: 03 Gruppesøk
 Som administrator trenger jeg å kunne søke opp en gruppe personer som deler samme kriterier, for å kunne behandle disse samlet videre, jeg trenger noen lett tilgjengelige søkefiltre
 som hjelper meg å finne grupper av personer jeg ofte jobber med. Mulig behov for å inkludere informasjon om filternes boleaanske algebra. 
@@ -7,17 +7,17 @@ som hjelper meg å finne grupper av personer jeg ofte jobber med. Mulig behov fo
   Bakgrunn:
     Gitt administrator er inne på gruppesøket
 
-@opplysning
+
   Scenario: Administrator er ansatt ved institusjon ved gjennomføring av gruppesøk
   Så ser administrator "Borghild Aga"
   Så ser administrator "Gruppeoppslag"
 
-@opplysning
+@harTest @levert
   Scenario: Søk og filtrering på studieprogram
     Når administrator søker og filtrerer på studieprogram "Bachelor i musikkteori"
     Så ser administrator "Johannes Brahms"
 
-@opplysning
+@harTest @levert
   Scenario: Søk og filtrering på startermin
     Når administrator søker og filtrerer på starttermin "2024 Høst"
     Så ser administrator "Harald Eggen"
@@ -26,44 +26,47 @@ som hjelper meg å finne grupper av personer jeg ofte jobber med. Mulig behov fo
 
   Scenario: Søk og filtrering på emne
 
-@opplysning
+@harTest @levert
   Scenario: Filtrering på betaling
     Når administrator filtrerer på betalt betaling
     Så ser administrator "Hermione Granger"
 
-@opplysning
+@harTest @levert
   Scenario: Filtrering på aktiv studierettsstatus
     Når administrator filtrerer på aktiv studierettstatus
     Så ser administrator "Fredrik Aalbakk"
     
-@opplysning
+@harTest @levert
   Scenario: Filtrering på avsluttet studierettsstatus
     Når administrator filtrerer på avsluttet studierettstatus
     Så ser administrator "Jo Aa"
-@opplysning
+
+@harTest @levert
   Scenario: Filtrering på norsk statsborgerskap
     Når administrator filtrerer på norsk statsborgerskap
     Så ser administrator "Vagar Aabrek"
-@opplysning
+
+@harTest @levert
   Scenario: Filtrering på statsborgerskap EU
     Når administrator filtrerer på statsborgerskap EU
     Så ser administrator "Anne Kjersti Aamlid"
-@opplysning
+
   Scenario: Filtrering på statsborgerskap resten av verden
     Når administrator filtrerer på statsborgerskap EU
     Så ser administrator "Anne Kjersti Aamlid"
-@opplysning
+
   Scenario: Filtrering på studiegjennomføring er semesterregistert
     Når administrator filtrerer på er semesterregistert
     Så ser administrator "Astrid Oline Aga"
 
-@opplysning
+
   Scenario: Administrator gjennomfører et gruppesøk som gir ingen resultater
     Når administrator filtrerer på starttermin "2023 Høst"
     Når administrator filtrerer på studieprogram "Ø program 2"
     
     Så får administrator ingen resultater og blir informert om at det ikke finnes noen resultater
 
+  @harTest @levert
   Scenario: Gruppesøk med flere valg innenfor samme filter viser svar fra begge filter. Dette vises med "eller" funskjonalitet, dvs at person må treffe på minst 1 av filterene, ikke nødvendigvis flere.
     Når administrator filtrerer på starttermin "2023 Høst"
     Og administrator filtrerer på starttermin "2024 Høst"
@@ -71,6 +74,7 @@ som hjelper meg å finne grupper av personer jeg ofte jobber med. Mulig behov fo
     Så ser administrator "Åge Aleksandersen"
     Så ser administrator "Harald Eggen"
 
+  @levert
   Scenariomal: Gruppesøk med flere valg innenfor mellom filter viser svar på personer som treffer begge. Det vises med "og" funskjonalitet, dvs at personen må treffe på alle filtere for å være med i lista.
     Når administrator søker på "<startterminer>"
     Og administrator søker på "<studieprogram>"

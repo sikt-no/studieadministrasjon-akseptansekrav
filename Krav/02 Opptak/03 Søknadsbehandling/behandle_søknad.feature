@@ -1,6 +1,6 @@
 # language: no
 @skip @opptakspilot @ci @focus
-Egenskap: 03 Opptak: 25 Saksbehandler behandler søknader
+Egenskap: 02 Opptak: 25 Saksbehandler behandler søknader
 
     Bakgrunn:
     Gitt administratoren er på hovedsiden til adminflaten
