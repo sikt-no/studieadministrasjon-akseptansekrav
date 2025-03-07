@@ -1,6 +1,6 @@
 # language: no
 @skip @støtteprosesser @sikkerhet
-Egenskap: 07 Støtteprosesser: API-brukerprofil
+Egenskap: 08 Teknisk: API-brukerprofil
   Som systemadministrator har jeg behov for å kunne se detaljer og endre på innstillnger og tilganger som gjelder for den enkelte brukerprofilene
   som har tilganger ved mitt lærested. 
 

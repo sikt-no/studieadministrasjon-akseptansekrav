@@ -1,6 +1,6 @@
 # language: no
 @skip @støtteprosesser @sikkerhet
-Egenskap: 07 støtteprosesser: Tilgangsstyringsprosess
+Egenskap: 07 Tilgangstyring: Tilgangsstyringsprosess
   Som systemadministrator ved organisasjon som bruker FS til studieadministrasjon, trenger jeg å kunne administrerer hvilke maskinbrukere som
 til enhver tid har tilgang til å se data om våre utdanninger, studenter og søkere, for å sikre våre virksomhetsdata og personvern for personer registrert hos oss.
 # senere iterasjon Sikt kan administrere FØR læresteder kan administrere

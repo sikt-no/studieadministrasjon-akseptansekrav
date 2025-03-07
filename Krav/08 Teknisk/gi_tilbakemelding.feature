@@ -1,6 +1,6 @@
 # language: no
 @skip @støtteprosesser
-Egenskap: 07 Støtteprosesser: Gi tilbakemelding på FSadmin
+Egenskap: 08 Teknisk: Gi tilbakemelding på FSadmin
   Som bruker trenger jeg å kunne gi tilbakemeldinger enkelt og raskt via brukerflatene, slik at teamene kan få innsikt i mine erfaringer, problemer og behov så tidlig som mulig, og så enkelt og greit som mulig.
   Jeg vil gjerne gi tilbakemeldinger både i en testfase, og på funksjonalitet i produksjon.
 

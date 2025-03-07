@@ -1,6 +1,6 @@
 # language: no
 @skip @personopplysning
-Egenskap: 07 Støtteprosesser: 04 Se og endre egne personopplysninger
+Egenskap: 06 Opplysninger om person: 03 Se og endre egne personopplysninger
   Som person har jeg behov for å kunne se mine egne personopplysninger i Min kompetanse, så jeg vet hvilke opplysninger
   som er registrert om meg som søker, student eller resultateier. Som person har jeg også behov for å kunne endre noen av disse opplysningene. 
   Jeg har også behov for at lærestedet får se riktig kontakt og personopplysninger om meg slik at jeg blir behandlet riktig

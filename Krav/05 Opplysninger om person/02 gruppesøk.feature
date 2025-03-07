@@ -1,6 +1,6 @@
 # language: no
 
-Egenskap: 07 Støtteprosesser: 03 Gruppesøk
+Egenskap: 06 Opplysninger om person: 02 Gruppesøk
 Som administrator trenger jeg å kunne søke opp en gruppe personer som deler samme kriterier, for å kunne behandle disse samlet videre, jeg trenger noen lett tilgjengelige søkefiltre
 som hjelper meg å finne grupper av personer jeg ofte jobber med. Mulig behov for å inkludere informasjon om filternes boleaanske algebra. 
 

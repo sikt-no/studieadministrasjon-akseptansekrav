@@ -1,6 +1,6 @@
 # language: no
 @skip @personopplysninger
-Egenskap: 07 Støtteprosesser: 05 Se og endre egne samtykker
+Egenskap: 06 Opplysninger om person: 05 Se og endre egne samtykker
   Som person har jeg behov for å kunne se og endre mine egne samtykker i Min kompetanse, så jeg vet hvilke data
   jeg deler med hvem. 
   Som administrator har jeg behov for å se hva en person har samtykket til

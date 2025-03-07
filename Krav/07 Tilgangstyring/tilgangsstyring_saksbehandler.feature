@@ -1,6 +1,6 @@
 # language: no
 
-Egenskap: 04 Støttefunksjoner: 44 Tilgangstyring: Tilgangstyring av saksbehandler
+Egenskap: 07 Tilgangstyring: Tilgangstyring av saksbehandler
 
 Scenario: Saksbehandler logger inn og får tilgang til å saksbehandle søknader
 Gitt administratoren er på hovedsiden til adminflaten
