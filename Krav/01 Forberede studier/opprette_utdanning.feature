@@ -1,6 +1,9 @@
 # language: no
 
-Egenskap: Opprette og tilby utdanning
+Egenskap: Opprette og tilgjengeliggjøre utdanning
+Som administrator ved lærested som tilbyr utdanning i Norge trenger jeg å opprette og tilgjengeliggjøre utdanning med informasjon som gjør at både vi og andre aktører i utdannings-Norge vet at vi tilbyr utdanning. 
+Både vi og andre aktører i det offentlige og private, trenger å vite om utdanningen er akkreditert og aktiv, eller historisk. 
+Søkere og studenter må vite at utdanning finnes og om den passer for dem der de er nå.  
 
   Scenariomal: Administrator oppretter ny utdanning
     Når bruker utarbeider et nytt forslag til ny "<utdanning>"
