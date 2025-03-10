@@ -28,7 +28,7 @@ Som person som bruker Min kompetanse (søker, student eller resultateier) som er
       |fødselsnummer|endringshendelse|personopplysning|
 
   @privat_larested @skip
-    #blir ikke levert i første iterasjon (denne må antagelig gjennomgås mer når oppgaven skal løses)
+    #blir ikke levert i første iterasjon (dette scenariet oppdater når oppgaven skal løses)
   Scenariomal: Privat lærested må spørre med fødselsnummer og navn
     Gitt at lærested er privat
     Når "<fødselsnummer>" og "<navn"> for "<endringshendelse>" matcher person ved lærested
@@ -54,7 +54,7 @@ Som person som bruker Min kompetanse (søker, student eller resultateier) som er
     Eksempler:
      |person |nytt navn| gammelt navn |
 
-  Scenariomal: Systemadministrator få varsel om oppdatering av fødselsnummer (eller D-nummer)
+  Scenariomal: Systemadministrator få varsel om oppdatering av fødselsnummer (eller D-nummer) (gml?)
     #midlertidig mellomløsning fordi vi fortsatt har FS-klienten og må gjøre flere endringer i databasen for at dette skal kunne gå automatisk
     #pr dags dato i Vask folkeregisteret - avviksbehandling i FS-klienten + rutinen FS200.001 med hake Folkeregister (automatisere og flytte endringsansvaret til person etterhvert)
     Når "<person>" blir oppdatert fra "<gammelt fødselsnummer>" til "<nytt fødselsnummer>" i folkeregisteret
@@ -63,7 +63,7 @@ Som person som bruker Min kompetanse (søker, student eller resultateier) som er
     Eksempler:
       | person | gammelt fødselsnummer |nytt fødselsnummer|systemadministrator|
 
-  Scenariomal: Oppdatering av fødselsnummer
+  Scenariomal: Oppdatering av fødselsnummer (gml?)
     #midlertidig mellomløsning fordi vi fortsatt har FS-klienten og må gjøre flere endringer i databasen for at dette skal kunne gå automatisk
     Når "<systemadministrator>" har behandlet avvikssak om fødselsnummerendring
     Så oppdaterer vi til "<nytt fødselsnummer>" i FS
@@ -71,6 +71,15 @@ Som person som bruker Min kompetanse (søker, student eller resultateier) som er
 
     Eksempler:
       |nytt fødselsnummer|systemadministrator|
+
+   Scenariomal: Automatisk oppdatering av fødselsnummer (NY?)
+    Når "<person>" blir oppdatert fra "<gammelt fødselsnummer>" til "<nytt fødselsnummer>" i folkeregisteret
+    Så oppdaterers fødselsnummer i FS
+    Så lagres fødselsnummerendring i historikk
+    Så mottar "<systemadministrator>" varsel om endret fødelsnummer
+
+    Eksempler:
+      | person | gammelt fødselsnummer |nytt fødselsnummer|systemadministrator|    
 
   Scenariomal: Informere person om oppdatering fra folkeregisteret
     Gitt at "<person>" endrer "<personopplysning>" i folkeregisteret
