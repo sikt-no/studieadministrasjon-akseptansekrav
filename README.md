@@ -8,7 +8,7 @@ Dette repositoriet inneholder akseptansekrav for løsninger laget av studieadmin
 
 Vi skriver Gherkin på Norsk.
 
-Legg til
+Legg til følgende:
 
 ```
 # language: NO
