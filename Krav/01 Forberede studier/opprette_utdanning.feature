@@ -41,3 +41,14 @@ Søkere og studenter må vite at utdanning finnes og om den passer for dem der d
     Eksempler:
     |utdanning                             |fagområde|
     |studieprogram HFB-ANT Antikkens kultur|antikkene studier|
+
+Scenariomal: Utdanning med entydig ID tilgjengeliggjøres
+Gitt at "<utdanning>" er lagret med entydig ID
+Gitt at "<utdanning>" er tilknyttet minst ett "<lærested>" 
+Når administrator registrerer "<periode start>" 
+Så blir utdanning tilbudt fra "<periode start>" 
+
+Eksempler: 
+|utdanning|lærested|periode start|
+|mnm2-his|UiB|høst 2026|
+|kurs|USN|02.03.2026|
