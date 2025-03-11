@@ -8,13 +8,11 @@ Dette repositoriet inneholder akseptansekrav for løsninger laget av studieadmin
 
 Vi skriver Gherkin på Norsk.
 
-Legg til følgende:
+Legg til følgende på starten av hver featurefil for norsk
 
 ```
 # language: NO
 ```
-
-på starten av hver featurefil for norsk
 
 Oversettelse Engelsk Norsk
 
@@ -55,3 +53,6 @@ Hvis vi har noen spesielle regler vi skal følge i studieadministrasjon kommer d
 - Bruk datatabell og scenario outline for datadrevne tester:
   - https://cucumber.io/docs/gherkin/reference/
 - Bruk for det meste bestemt form på roller når handlinger utføres. Personen eller administratoren.
+
+### Tags
+@levert betyr at scenariet er fullført og levert til produksjon
