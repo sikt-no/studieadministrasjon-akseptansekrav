@@ -8,8 +8,8 @@ Egenskap: Personsøk
     Gitt at administrator er inne på personsøket
   # Returerer ingen treff
 
-  Scenario: Administrator er ansatt ved institusjon ved gjennomføring av personsøk
-  Gitt administratoren er ansatt ved institusjon
+  Scenario: Administrator er ansatt ved organisasjon ved gjennomføring av personsøk
+  Gitt administratoren er ansatt ved organisasjon
   Så ser administrator "Borghild Aga"
 
   @harTest @levert
