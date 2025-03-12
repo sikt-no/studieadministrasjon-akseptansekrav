@@ -5,6 +5,11 @@ Som administrator ved lærested som tilbyr utdanning i Norge trenger jeg å oppr
 Både vi og andre aktører i det offentlige og private, trenger å vite om utdanningen er akkreditert og aktiv, eller historisk. 
 Søkere og studenter må vite at utdanning finnes og om den passer for dem der de er nå.
 
+Fellesscenarier: utdanningtyper, ulike data som må inn for de ulike typene for å kunne opprette
+Scenario: opprette utdanningstype: studieprogram (prioritert - NB: forhold til studieretning, veivalg eller egen utdanning)
+
+Scenario: opprette utdanningstype: emne og kurs
+
   Scenariomal: Administrator oppretter ny utdanning ved FS-lærested som er selvakkreditterende
     Gitt at lærested er selvakkreditterende
     Gitt at lærested har FS som studieadministrativt system
@@ -67,10 +72,8 @@ Søkere og studenter må vite at utdanning finnes og om den passer for dem der d
 Scenariomal: Utdanning med entydig ID tilgjengeliggjøres
 Gitt at "<utdanning>" er lagret med entydig ID
 Gitt at "<utdanning>" er tilknyttet minst ett "<lærested>" 
-Når administrator registrerer "<periode start>" 
-Så blir utdanning tilbudt fra "<periode start>" 
+Når administrator setter utdanning til aktiv (endre fra kladd, eller aktivt velge kladd, tilgangsstyring på ulike statuser av utdanningsliv?)
+Så blir utdanning tilgjengelig
 
 Eksempler: 
-|utdanning|lærested|periode start|
-|mnm2-his|UiB|høst 2026|
-|kurs|USN|02.03.2026|
+|utdanning|lærested|
