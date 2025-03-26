@@ -1,28 +1,36 @@
 # language: no
 
 Egenskap: Plasstildeling
-
 Plasstildeling, også kjent som opptakskjøring, omtaler prosessen hvor et sett med ferdige søknader blir kjørt med en opptaksalgoritme. Algoritmen sammenligner søkerens poengscore innenfor et sett med prioriterte kvoter for å vurdere om vedkommende skal få tilbud eller ikke.
 
 Bakgrunn:
 Gitt at følgende brukere ferdigbehandlede søknader finnes:
-| navn                  | kvalifisert? | kvote 1 | kvote 2 | kvote 3 | Konkurransepoeng | Skolepoeng |
-| Thomas Edison         | Ja           | Ja      | Ja      | Nei     | 5                | 5          |
-| Nikola Tesla          | Ja           | Ja      | Ja      | Nei     | 6                | 5          |
-| Alexander Graham Bell | Ja           | Ja      | Ja      | Nei     | 5                | 4          |
-| Benjamin Franklin     | Ja           | Ja      | Ja      | Nei     | 3                | 3          |
-| Albert Einstein       | Ja           | Nei     | Ja      | Nei     | NA               | 3          |
-| Marie Curie           | Ja           | Nei     | Ja      | Nei     | NA               | 2          |
-| Isaac Newton          | Ja           | Nei     | Ja      | Nei     | NA               | 1          |
-| Steve Jobs            | Nei          | Ja      | Ja      | Nei     | 5                | 4          |
-| Alan Turing           | Nei          | Ja      | Ja      | Nei     | 4                | 3          |
-| Leonardo Da Vinci     | Nei          | Nei     | Ja      | Ja      | NA               | 4          |
+| navn                  | kvalifisert? | kvote 1 | kvote 2 | kvote 3 | Konkurransepoeng | Skolepoeng  | 
+| Thomas Edison         | Ja           | Ja      | Ja      | Nei     | 50               | 50          |
+| Nikola Tesla          | Ja           | Ja      | Ja      | Nei     | 55               | 50          |  
+| Benjamin Franklin     | Ja           | Ja      | Ja      | Nei     | 30               | 45          |
+| Alexander Graham Bell | Ja           | Ja      | Ja      | Nei     | 50               | 40          |
+| Albert Einstein       | Ja           | Nei     | Ja      | Nei     | 30               | 30          |
+| Marie Curie           | Ja           | Nei     | Ja      | Nei     | 30               | 20          |
+| Isaac Newton          | Ja           | Nei     | Ja      | Nei     | 30               | 10          |
+| Steve Jobs            | Nei          | Ja      | Ja      | Nei     | 35               | 35          |
+| Alan Turing           | Nei          | Ja      | Ja      | Nei     | 40               | 30          |
+| Leonardo Da Vinci     | Nei          | Nei     | Ja      | Ja      | 30               | 30          |
 
 Gitt at det finnes følgende kvoter og plasser på studier:
 | kvoteprioritet | kvotenavn           | antall plasser | poengutregning   |
 | 1              | Italiakvote         | 1              | Konkurransepoeng |
 | 2              | Førstegangsvitnemål | 2              | Skolepoeng       |
 | 3              | Andregangsvitnemål  | 1              | Konkurransepoeng |
+
+Scenario: Liste prioritert per kvote
+
+Scenario: For mange med samme score
+
+Scenario: Sette rundekriterier
+
+Scenario: Sette opp runder
+Når en opptaksleder 
 
 Scenario: Hovedopptak med en runde
 Når opptaksleder starter en runde
@@ -39,4 +47,4 @@ Og sendes et tilbud om plass
 Scenario: Etterfyllingsopptak
 Når opptaksleder starter en runde på et utdanningstilbud som allerede har gitt tilbud til et sett med søkere.
 
-
+Scenario: Svar på tidligere runder
