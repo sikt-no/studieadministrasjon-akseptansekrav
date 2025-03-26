@@ -19,24 +19,19 @@ Gitt at følgende brukere ferdigbehandlede søknader finnes:
 | Leonardo Da Vinci     | Nei          | Nei     | Ja      | Ja      | NA            | 4             | 4             |
 
 Gitt at det finnes følgende kvoter og plasser på studier:
-| kvote | kvotenavn           | antall plasser |
-| 1     | Andregangsvitnemål  | 1              |
-| 2     | Førstegangsvitnemål | 2              |
-| 3     | Italiakvote         | 1              |
+| kvoteprioritet | kvotenavn           | antall plasser |
+| 1              | Italiakvote         | 1              |
+| 2              | Førstegangsvitnemål | 2              |
+| 3              | Andregangsvitnemål  | 1              |
 
 Scenario: Hovedopptak med en runde
 Når opptaksleder starter en runde
 Og setter inn følgende rundekriterier
 | publiseres | antall runder | kun ett tilbud om plass | kun et ja-svar | bortfall settes |
 | ja         | 1             | Ja                      | Ja             | Ja              |
-Og følgende kvoteprioritering
-| Prioritering | Navn                |
-| 3            | Italiakvote         |
-| 2            | Førstegangsvitnemål |
-| 1            | Andregangsvitnemål  |
 
 Så skal følgende personer få plass på følgende kvoter
-| Kvote 3           | Kvote 2       | Kvote 1               |
+| Kvote 1           | Kvote 2       | Kvote 3               |
 | Leonardo Da Vinci | Thomas Edison | Alexander Graham Bell |
 | .                 | Nikola Tesla  | .                     |
 
