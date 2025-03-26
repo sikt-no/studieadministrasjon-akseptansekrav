@@ -42,6 +42,10 @@ Egenskap: Personsøk
       | studentnummer |                               10 | Misfornøyd Ambassade |
       | feidebruker   |                           123409 | Misfornøyd Ambassade |
       | privat e-post | misfornoyd@mail.com              | Misfornøyd Ambassade |
+
+
+
+      
       #|søknadsnummer|MAS-0101010  | Hermione Granger | (vi har ikke søk på søknadsnummer ennå? Ta det samtidig med søknad?)
   #|personløpenummer|1000001|Hermione Granger| (vi har ikke søk på personløpenummer ennå, til vurdering)
 
