@@ -1,5 +1,5 @@
 # language: no
-@opptak @skip
+@opptak @skip @nih
 Egenskap: Opprette søknad for person
   Som saksbehandler i opptak trenger jeg av og til å kunne opprette søknader for personer som ikke klarer å opprette dette selv om de
   er i en gruppe som skal kunne søke på aktuelle utdanningstilbud. Grunner til å ikke kunne opprette egen søknad kan være at søker ikke har

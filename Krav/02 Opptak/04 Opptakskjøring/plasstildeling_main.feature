@@ -32,6 +32,7 @@ Scenario: Sette rundekriterier
 Scenario: Sette opp runder
 Når en opptaksleder 
 
+@nih
 Scenario: Hovedopptak med en runde
 Når opptaksleder starter en runde
 Og setter inn følgende rundekriterier

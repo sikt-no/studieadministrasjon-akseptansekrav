@@ -8,7 +8,7 @@
   Gitt administratoren er en saksbehandler for opptak
   Gitt administratoren går til opptakssiden
 
-  @harTest @levert
+  @harTest @levert @nih
   Scenario: Opprette et opptak med ett utdanningstilbud
   Når administratoren velger å lage lokalt opptak
   Og administratoren setter navn og type på opptak til universitet og høyskole grunnutdanning
@@ -39,5 +39,11 @@
   Scenario: Legge inn informasjonen på opptak søkere som får tilbud skal se
 
   Scenario: Legge inn informasjonen søkere som kommer på venteliste skal se
-
+  
   Scenario: Legge inn informasjonen søkere som får avslag skal se
+
+  @levert @nih
+  Scenario: Sette kvoter på utdanningstilbud
+
+  @nih
+  Scenario: Sette tekster som potensielle søkere får se

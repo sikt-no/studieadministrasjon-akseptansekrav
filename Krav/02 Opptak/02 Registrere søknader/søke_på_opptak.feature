@@ -3,7 +3,7 @@
 Egenskap: Søke på opptak
     Som borger ønsker jeg å kunne søke på et opptak til et studie jeg ønsker å delta på slik at jeg kan få skoleplass
 
-  @harTest @levert
+  @harTest @levert @nih
   Scenario: Søker ser viktig informasjon om et opptak: "<info>"
     Gitt personen er på hovedsiden til personflaten
     Når personen går inn på velg opptak
@@ -20,7 +20,7 @@ Egenskap: Søke på opptak
       | Studiepoeng      |
       | Kjønnspoeng      |
 
-  @harTest @levert
+  @harTest @levert @nih
   Scenario: En person søker på et opptak med kun ett studie
     Gitt personen er på hovedsiden til personflaten
     Gitt personen er en søker
@@ -39,6 +39,7 @@ Egenskap: Søke på opptak
     Når det skjer noe galt med innsending av søknaden
     Så skal personen få en forklaring på hvorfor
 
+  @nih
   Scenario: Søker kan finne utdanningstilbud i en ekstern studiekatalog hos aktuelt lærested og skal da kunne komme inn i en søknad i brukerflaten derfra
     Gitt personen er inne på hovedsiden til UiT
     Og personen er inne på UiT sin studiekatalog
