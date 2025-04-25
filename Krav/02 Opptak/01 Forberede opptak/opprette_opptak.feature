@@ -43,7 +43,7 @@
   Scenario: Legge inn informasjonen søkere som får avslag skal se
 
   @levert @nih
-  Scenario: Sette kvoter på utdanningstilbud
+  Scenario: Sette kvoteplasser på utdanningstilbud
 
   @nih
   Scenario: Sette tekster som potensielle søkere får se

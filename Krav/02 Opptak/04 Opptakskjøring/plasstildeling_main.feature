@@ -45,6 +45,8 @@ Så skal følgende personer få plass på følgende kvoter
 | .                 | Nikola Tesla  | .                     |
 Og sendes et tilbud om plass
 
+
+
 Scenario: Etterfyllingsopptak
 Når opptaksleder starter en runde på et utdanningstilbud som allerede har gitt tilbud til et sett med søkere.
 

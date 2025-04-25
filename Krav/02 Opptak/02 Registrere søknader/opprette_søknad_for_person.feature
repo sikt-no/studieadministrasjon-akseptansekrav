@@ -13,8 +13,9 @@ Egenskap: Opprette søknad for person
     Scenario: Administrator oppretter søknad for person som allerede har søkt på utdanningstilbud
       Når administrator oppretter søknad for person og denne personen allerede har registrert søknad til utdanningstilbud
       Så får administrator beskjed om det og ny søknad opprettes ikke
-
-  Scenariomal: Administrator oppretter søknad for person som har norsk fnr
+      
+ @nih
+  Scenario: Administrator oppretter søknad for person som har norsk fnr
     Gitt at personen ikke har søkt på "<utdanningstilbud>" før i denne "<opptaksperioden>"
     Når administrator oppretter søknad for "<person med norsk fnr>" med "<individuell søknadsfrist>"
     Så mottar "<person med norsk eID>" varsel om søknad til utfylling i Min kompetanse og kan levere søknad innen "<individuell søknadsfrist>"
@@ -32,7 +33,8 @@ Egenskap: Opprette søknad for person
       |01018912345  |uhf-1234|
       |51018912345  |ma-1234 |
 
-    Scenariomal: Administrator oppretter søknad for ny person uten norsk fnr/dnr
+   
+    Scenario: Administrator oppretter søknad for ny person uten norsk fnr/dnr
       Gitt at personen ikke har søkt på "<utdanningstilbud>" før i denne "<opptaksperioden>"
       Gitt at personen ikke får logget på Min kompetanse uten norsk eID
       Når administrator oppretter søknad for "<ny person uten norsk fnr>" med "<individuell søknadsfrist>"
