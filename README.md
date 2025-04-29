@@ -2,7 +2,7 @@
 I dette GitHub-repoet finner du: 
 - FS Produktbacklog
 - FS Allmenningen 
-- Funksjonelle krav 
+- Funksjonelle krav
 
 ## FS Produktbacklog - Oversikt over saker 
 I FS produktbacklog kan du se ulike oversikter over saker vi har inne, og følge status på disse. 
@@ -15,3 +15,7 @@ https://github.com/sikt-no/fs/discussions
 ## Funksjonelle krav
 Funksjonelle krav er en metode for å beskrive FS som produkt på en systematisk måte, som åpner for samarbeid og medvirkning med brukere som kjenner studieadministrativt arbeid godt.
 https://github.com/sikt-no/fs/tree/main/Krav
+
+## Andre nettsteder
+- Mer informasjon og dokumentasjon for utviklere og brukere av FS: https://studieadministrasjon.sikt.no/
+- Mer informasjon om Sikt og Produktområde Studieadministrasjon: https://sikt.no/omrade/studieadministrasjon
