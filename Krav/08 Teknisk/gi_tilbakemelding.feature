@@ -5,30 +5,40 @@ Egenskap: 08 Teknisk: Gi tilbakemelding
   Jeg vil gjerne gi tilbakemeldinger både i en testfase, og på funksjonalitet i produksjon.
 
   Bakgrunn:
-    Gitt at bruker er på FS-portalen eller innlogget på FS Admin eller Min Kompetanse
+    Gitt at bruker er på innlogget på FS Admin eller Min Kompetanse
 
   Scenariomal: Bruker gir tilbakemelding
     Når bruker er på "<en side>"
-    Så kan bruker gi "<tilbakemelding>"
+    Så kan bruker gi "<tilbakemelding>" om feil eller forbedringer
 
     Eksempler:
       | en side      |tilbakemelding|
       | gruppesøk i FS Admin    | feilmelding|
-      | personprofil i Min kompetanse |forbedringsønske|
-      | begrepsside for student i FS Portal|forbedringsønske|
+      | personprofil i Min kompetanse |forbedringsforslag|
+      | begrepsside for student i FS Portal|forbedringsforslag|
 
-  Scenario: Bruker gir tilbakemelding med vedlegg
-    Når bruker gir tilbakemelding
-    Så kan bruker berike tilbakemelding ved å laste opp vedlegg
-
-  Scenario: Bruker sender inn feilmelding (bug) 
+   Scenario: Bruker sender inn feilmelding 
     Når bruker sender inn feilmelding
     Så opprettes bug til vurdering
 
   Scenario: Bruker sender inn forbedringsønske
     Når bruker sender inn feilmelding
-    Så opprettes forbedringssak til vurdering
+    Så opprettes forbedringssak til vurdering    
 
-  Scenario: Tilbakemeldingen slettes
-    Når tilbakemeldingen har vært lagret i 14 dager
-    Så slettes tilbakemeldingen med eventuelle vedlegg
+   Scenario: Bruker beskriver tilbakemelding skriftlig
+    Når bruker gir tilbakemelding
+    Så kan bruker skrive den i tekst    
+
+  Scenario: Bruker tar skjermbilde
+    Når bruker gir tilbakemelding
+    Så kan bruker ta skjermbilde av innhold i nettleser
+
+  Scenario: Bruker annoterer på skjermbilde
+    Gitt at bruker tar skjermbilde
+    Når bruker gir tilbakemelding med skjermbilde
+    Så kan bruker annotere på skjermbilde
+
+  Scenario: Bruker fjerner skjermbilde
+    Gitt at bruker tar skjermbilde
+    Når bruker gir tilbakemelding
+    Så kan bruker fjerne skjermbilde og ta nytt ved behov
