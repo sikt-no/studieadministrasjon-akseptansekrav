@@ -29,14 +29,14 @@ Egenskap: Se og endre egne personopplysninger
     Når "<administrator>" ser på personprofil
     Så ser administrator "<navn>"
     Så ser administrator "<Studentinformasjon>"
-    #Så ser administrator "<fødselsdato>"
-    #Så ser administrator "<statsborgerskap>"
-    #Så ser administrator "<fødselsnummer>"
-    #Så ser administrator "<studentnummer>"
-    #Så ser administrator "<feidebrukernavn>"
-    #Så ser administrator "<kontaktspråk>"
+    Så ser administrator "<fødselsdato>"
+    Så ser administrator "<statsborgerskap>"
+    Så ser administrator "<fødselsnummer>"
+    Så ser administrator "<studentnummer>"
+    Så ser administrator "<feidebrukernavn>"
+    Så ser administrator "<kontaktspråk>"
 #Administrator skal evt. kunne se bilde dersom person har samtykket til dette. Trenger juridisk avklaring
-    #Så ser administrator "<bilde>"
+    Så ser administrator "<bilde>"
 
     Eksempler:
       | navn | fødselsdato | fødselsnummer | studentnummer | feidebrukernavn | statsborgerskap | kontaktspråk | telefonnummer | e-postadresse | postadresse |
@@ -50,9 +50,9 @@ Egenskap: Se og endre egne personopplysninger
   Scenariomal: administrator ser brukers kontaktopplysninger
     Gitt at administrator er inne på FS-admin
     Når "<administrator>" ser på personprofil
-  #Så ser administrator "<telefonnummer>"
-  #Så ser administrator "<e-postadresse>"
-  #Så ser administrator "<kontaktadresse>"
+    Så ser administrator "<telefonnummer>"
+    Så ser administrator "<e-postadresse>"
+    Så ser administrator "<kontaktadresse>"
 
     Eksempler:
       | telefonnummer | e-postadresse | kontaktadresse |
