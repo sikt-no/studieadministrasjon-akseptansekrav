@@ -33,8 +33,8 @@ som hjelper meg å finne grupper av personer jeg ofte jobber med.
       | Uemosjonell Betaling   | Uemosjonell Betaling   |  07.02.2013 |            15 | no310236284_elev_3_6a  | JORDMOR Jordmor           | betalt                |               |                 |                              |
       | Eksemplarisk bevegelse | Eksemplarisk Bevegelse |  15.08.2009 |            16 | no310480428_elev_1_8b  | Ingen aktiv studierett    | ikke betalt           |               |                 |                              |
       | Uvitende Bjrønunge     | Uvitende Bjørnunge     |  25.08.2013 |            17 | no310236284_elev_4_5b  | Ingen aktiv studierett    | ikke betalt           |               |                 |                              |
-      | Fiolett Bokhylle       | Fiolett Bokhylle       |  10.10.2010 |            18 | no310236284_elev_3_9b  | Enkeltemnestudierett      | betalt                |               | FSnr            |                              |
-      | Vertikal Branngate     | Vertikal Branngate     |  05.03.2010 |            19 | no310236284_elev_3_8a  | Ingen aktiv studierett    | ikke betalt           |               | Admissionr      |                              |
+      | Fiolett Bokhylle       | Fiolett Bokhylle       |  10.10.2010 |            18 | no310236284_elev_3_9b  | Enkeltemnestudierett      | betalt                |               | Søkernr (gml FS)|                              |
+      | Vertikal Branngate     | Vertikal Branngate     |  05.03.2010 |            19 | no310236284_elev_3_8a  | Ingen aktiv studierett    | ikke betalt           |               | Søknadsnr       |                              |
 
 
   Scenariomal: Søk og filtrering på studieprogram
@@ -177,6 +177,25 @@ som hjelper meg å finne grupper av personer jeg ofte jobber med.
    |personer| statsborgerskap i resten av verden|
   |Navn Navnesen 1           | Brasil|
    |Navn Navnesen 2           | Kina| 
+
+  Scenario: Søk og filtrering på permisjon
+    Når administrator søker og filtrerer på "permisjon"
+    Så ser administrator "<personer>" med "<permisjonsprosent>" som gjelder dagens dato
+
+  Eksempler:
+   |personer| permisjonsprosent|
+  |Navn Navnesen 1           |100%|
+   |Navn Navnesen 2           |50%| 
+
+
+  Scenario: Søk og filtrering studenter med merknad
+    Når administrator søker og filtrerer på "merknad"
+    Så ser administrator "<personer>" med "<merknad>" for studieprogram
+
+  Eksempler:
+   |personer| merknad|
+  |Navn Navnesen 1          |skal ha UDI-rapport|
+   |Navn Navnesen 2           |har 14 barn har fått ett til| 
 
   Scenario: Gruppesøk med flere valg innenfor samme filter viser svar fra begge filter. Dette vises med "eller" funskjonalitet, dvs at person må treffe på minst 1 av filterene, ikke nødvendigvis flere.
     Når administrator filtrerer på starttermin "2023 Høst"
