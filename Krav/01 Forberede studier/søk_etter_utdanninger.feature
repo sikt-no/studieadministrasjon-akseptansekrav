@@ -12,7 +12,11 @@ Som opptaksleder har jeg også behov for å kunne søke opp utdanningstilbud som
     Så får administrator ingen resultater og melding om at søket ikke gir noen treff
 
   Scenariomal: Søk etter utdanninger gir treff
-    Når administrator får treff i utdanningssøket
+    Når administrator søker på et utplukk av utdanninger med en kombinasjon av verdier som gir treff
+    Så får administrator se resultater av utdanningssøket
+
+  Scenariomal: Resultater fra utdanningssøket vises i en oversikt
+    Når administrator får resultater av utdanningssøket
     Så ser administrator "<studienivå>"
     Så ser administrator "<navn på utdanning>"
     Så ser administrator "<kode på utdanning>"
