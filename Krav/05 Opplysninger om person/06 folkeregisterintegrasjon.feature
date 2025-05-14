@@ -11,29 +11,25 @@ Som person som bruker Min kompetanse (søker, student eller resultateier) som er
   Bakgrunn:
     Gitt at lærestedet har søkt og fått tilgang til Folkeregisteret
     Gitt at lærestedet har delegert tilgang til Folkeregisteret videre til FS/Sikt
-    Gitt at person har minst én søknad eller studierett 
-    #Gitt at person har minst ett resultat - kan utvides
-    #Gitt at person har minst én aktiv søknad - kan utvides
+    Gitt at person har minst én søknad, studierett eller resultat ved lærested
 
-  @offentlig_larested @versjon1
-  Scenariomal: Offentlig lærested kan spørre med fødselsnummer
-    Gitt at lærested er offentlig
+  Scenariomal: Lærested "uten hjemmel" kan spørre med fødselsnummer
+    Gitt at lærested har tilgangspakke privat eller offentlig "uten hjemmel" hos Folkeregisteret
     Når "<fødselsnummer>" for "<endringshendelse>" matcher person ved lærested
     Så utføres oppdatering av "<personopplysning>"
 
     Eksempler:
       |fødselsnummer|endringshendelse|personopplysning|
 
-    #blir ikke levert i første iterasjon (dette scenariet oppdater når oppgaven skal løses)
-  Scenariomal: Privat lærested må spørre med fødselsnummer og navn
-    Gitt at lærested er privat
+    @versjon2
+  Scenariomal: Lærested med tilgangspakke "privat" må spørre med fødselsnummer og navn
+    Gitt at lærested har tilgangspakke "privat"
     Når "<fødselsnummer>" og "<navn"> for "<endringshendelse>" matcher person ved lærested
     Så utføres oppdatering av "<personopplysning>"
 
     Eksempler:
       |fødselsnummer|endringshendelse|personopplysning|
 
-@versjon1
   Scenariomal: Oppdatere navn
     Når "<person>" endrer fra "<gammelt navn>" til "<nytt navn>" i folkeregisteret
     Så oppdateres personens navn FS
@@ -42,7 +38,6 @@ Som person som bruker Min kompetanse (søker, student eller resultateier) som er
     Eksempler:
       | person |gammelt navn |nytt navn|
 
-@versjon1
   Scenariomal: Trunkere som pr. dags dato er for lange for FS (over 200 tegn)
     Gitt at "<nytt navn>" i folkeregisteret er på over 200 tegn
     Når "<person>" endrer fra "<gammelt navn>" til "<nytt navn>" i folkeregisteret
