@@ -48,12 +48,20 @@ Som person som bruker Min kompetanse (søker, student eller resultateier) som er
      |person |nytt navn| gammelt navn |
 
 @versjon1
-  Scenariomal: Systemadministrator få varsel om oppdatering av fødselsnummer (eller D-nummer)
+  Scenariomal: Systemadministrator få varsel om oppdatering av fødselsnummer
     Når "<person>" blir oppdatert fra "<gammelt fødselsnummer>" til "<nytt fødselsnummer>" i folkeregisteret
     Så mottar "<systemadministrator>" varsel om avvikssak til behandling
 
     Eksempler:
       | person | gammelt fødselsnummer |nytt fødselsnummer|systemadministrator|
+
+ @versjon2
+ Scenariomal: Systemadministrator få varsel om oppdatering av Dnr
+    Når "<person>" blir oppdatert fra "<snr>" til "<Dnr>" i folkeregisteret
+    Så mottar "<systemadministrator>" varsel om avvikssak til behandling
+
+    Eksempler:
+      | person | gammelt fødselsnummer |nytt fødselsnummer|systemadministrator|      
 
 @versjon1
   Scenariomal: Oppdatering av fødselsnummer 
@@ -91,15 +99,20 @@ Som person som bruker Min kompetanse (søker, student eller resultateier) som er
     Eksempler:
       |persons|dødsfall|systemadministrator|
 
-@versjon1.1
-  Scenariomal: Oppdatere statsborgerskap
-    Gitt at "<person>" har søkt utdanning eller er aktiv student
-    Når en "<person>" endrer "<statsborgerskap>" i folkeregisteret
-    Så oppdaterer vi "<statsborgerskap>" i FS
+      @versjon2
+  Scenariomal: Velge statsborgerskap
+    Gitt at en person blir opprettet med D-nr eller Fnr første gang
+    Når en "<person>" har "<flere statsborgerskap>"
+    Så oppdaterer oppdaterer vi til "<prioritert statsborgerskap>"
 
     Eksempler:
-      |person| statsborgerskap |
-
+      |person         | flere statsborgerskap       |prioritert statsborgerskap|
+      |navn navnesen 1|norsk, nordisk               |norsk                     |
+      |navn navnesen 2|nordisk, EU/Sveits/UK        |nordisk                   |
+      |navn navnesen 3|EU/Sveits/UK,resten av verden|EU/Sveits/UK              |
+      |navn navnesen 4|resten av verden, ukjent     |resten av verden          |
+      |navn navnesen 4|ukjent                       |ukjent                    |
+      
     Scenario: Logging av endringer i personopplysninger fra folkeregisteret
       #usikker på om denne skal her eller hører hjemme et annet sted (vesensforskjell fra endringer som bevares i historikk)
       Gitt at en person har endret personopplysninger i folkeregisteret som er relevante for FS
