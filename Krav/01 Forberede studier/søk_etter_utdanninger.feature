@@ -52,13 +52,13 @@ Som opptaksleder har jeg også behov for å kunne søke opp utdanningstilbud som
 
    Scenariomal: Søk og filtrering på utdanning
     Når administrator søker og filtrerer på "<input>"
-    Så ser administrator "<utdanninger>"
+    Så ser administrator "<resultater>"
     
   Eksempler:
       |input         |utdanninger       |
-      |ant|antikkens kultur          |
-      |ant|antropologi          |
-     |and|antagonistisk litterator
+      |ant1100|antikkens kultur         |
+      |ant|antikkens kultur, antropologi, antagonistisk litteratur|
+  
 
   Scenario: Søk og filtrering på startermin
     Når administrator søker og filtrerer på "<starttermin>"
