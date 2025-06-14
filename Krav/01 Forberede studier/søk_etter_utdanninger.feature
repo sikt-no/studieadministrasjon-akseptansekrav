@@ -2,7 +2,7 @@
 
 Egenskap: Søk etter utdanninger
 Som studieplanlegger har jeg behov for å kunne søke opp utdanninger og utdanningstilbud som finnes for å kunne vedlikeholde utdanninger og skaffe meg oversikt over utdanninger og utdanningstilbud.
-Som opptaksleder har jeg også behov for å kunne søke opp utdanningstilbud som finnes, for å kunne knytte dem til opptak.
+Som opptaksleder har jeg også behov for å kunne søke opp utdanningstilbud som finnes, for å kunne knytte dem til opptak. 
 
   Bakgrunn:
     Gitt administrator er inne på utdanningssøket
@@ -16,6 +16,7 @@ Som opptaksleder har jeg også behov for å kunne søke opp utdanningstilbud som
     Så får administrator se resultater av utdanningssøket
 
   Scenariomal: Resultater fra utdanningssøket vises i en oversikt
+  # merk at studienivå og fagområde skal utledes fra NUS/ISCED-klassifisering slik at dataene blir interoperable internasjonalt og på tvers av læresteder. Andre klassifiseringer skal ikke videreføres.
     Når administrator får resultater av utdanningssøket
     Så ser administrator "<studienivå>"
     Så ser administrator "<navn på utdanning>"
