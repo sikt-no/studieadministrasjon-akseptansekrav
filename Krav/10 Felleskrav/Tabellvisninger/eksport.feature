@@ -1,3 +1,5 @@
+# language: no
+
 Egenskap: 10 Felleskrav: Eksport
  Som bruker ønsker jeg å kunne laste ned eller dele informasjon jeg har søkt og filtrert meg frem til i en visning. 
 
