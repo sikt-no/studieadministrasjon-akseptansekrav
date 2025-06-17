@@ -1,5 +1,5 @@
-# Resultateiere
-Personas med eksempeldata og problemstillinger
+# Alumni
+Personas for alumni (personer med gyldig resultat/kompetansebevis fra minst ett lærested) med eksempeldata og problemstillinger
 
 ## VGS-resultateier
 Har kun resultater fra VGS og logger på med id-porten, ikke med feide
